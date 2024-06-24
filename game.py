@@ -6,7 +6,7 @@ if a not in list:
     print("Enter valid option:")
 else:
     b=choice(list)
-    print(b)
+    print(f"Computer chose: {b}") 
     if (a==b):
         print("Match is tie")
     elif (a==1 and b==2) or (a==3 and b==1) or (a==2 and b==3):
