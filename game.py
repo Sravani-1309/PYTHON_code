@@ -35,10 +35,10 @@ def play_game():
         winner = get_winner(user_choice, computer_choice)
         
         if winner == "user":
-            print("You win this round! 🎉")
+            print("You win this round! ")
             user_score += 1
         elif winner == "computer":
-            print("Computer wins this round! 😢")
+            print("Computer wins this round! ")
             computer_score += 1
         else:
             print("It's a tie!")
@@ -64,5 +64,5 @@ def play_game():
                 print("Invalid input! Please enter a number.")
 
 if __name__ == "__main__":
-    print(" Welcome to Rock, Paper, Scissors (Number Version)!")
+    print("Welcome to Rock, Paper, Scissors (Number Version)!")
     play_game()
